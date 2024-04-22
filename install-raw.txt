@@ -1,0 +1,101 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt auto-remove
+    4  sudo apt install neofetch
+    5  neofetch
+    6  sudo apt install git
+    7  wget
+    8  wget https://github.com/zmspp9/pop-os-startup.git
+    9  ls
+   10  cat pop-os-startup.git 
+   11  clear
+   12  ls
+   13  gh
+   14  rm -r ./pop-os-startup.git 
+   15  git clone https://github.com/zmspp9/pop-os-startup.git
+   16  ls
+   17  cd pop-os-startup/
+   18  ls
+   19  chmod +x ./install.sh 
+   20  ./install.sh 
+   21  nano ./install.sh 
+   22  ./install.sh 
+   23  sudo apt install qgis
+   24  sudo apt purge qgis
+   25  sudo apt auto-remove
+   26  sudo apt install gnupg software-properties-common
+   27  cd /etc/apt/keyrings/
+   28  ls
+   29  exit
+   30  sudo wget -O /etc/apt/keyrings/qgis-archive-keyring.gpg https://download.qgis.org/downloads/qgis-archive-keyring.gpg
+   31  sudo nano /etc/apt/sources.list.d/
+   32  sudo nano /etc/apt/sources.list.d/qgis.sources
+   33  sudo apt update
+   34  ls
+   35  cd /etc/apt/sources.list.d/
+   36  l
+   37  ls
+   38  rm -r ./qgis.sources 
+   39  sudo rm -r ./qgis.sources 
+   40  sudo mkdir -m755 -p /etc/apt/keyrings
+   41  ls
+   42  sudo wget -O /etc/apt/keyrings/qgis-archive-keyring.gpg https://download.qgis.org/downloads/qgis-archive-keyring.gpg
+   43  sudo apt update
+   44  sudo nano /etc/apt/sources.list.d/qgis.sources
+   45  sudo apt update
+   46  sudo nano /etc/apt/sources.list.d/qgis.sources
+   47  sudo apt update
+   48  sudo apt install qgis qgis-plugin-grass
+   49  $ sudo add-apt-repository ppa:serge-rider/dbeaver-ce
+   50  sudo add-apt-repository ppa:serge-rider/dbeaver-ce
+   51  sudo apt update
+   52  sudo apt install dbeaver-ce 
+   53  cd
+   54  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   55  sudo apt install ./google-chrome-stable_current_amd64.deb
+   56  sudo tee /etc/apt/sources.list.d/pritunl.list << EOF
+deb https://repo.pritunl.com/stable/apt jammy main
+EOF
+
+   57  sudo apt --assume-yes install gnupg
+   58  gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 7568D9BB55FF9E5287D586017AE645C0CF8E292A
+   59  gpg --armor --export 7568D9BB55FF9E5287D586017AE645C0CF8E292A | sudo tee /etc/apt/trusted.gpg.d/pritunl.asc
+   60  sudo apt update
+   61  sudo apt install pritunl-client-electron
+   62  cd Downloads/
+   63  ls
+   64  sudo apt install ./slack-desktop-4.36.140-amd64.deb 
+   65  sudo apt update
+   66  sudo apt upgrade slack-desktop
+   67  sudo apt purge google-drive-ocamlfuse
+   68  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   69  unzip awscliv2.zip
+   70  sudo ./aws/install
+   71  aws --version
+   72  ssh ziggy@192.168.10.199
+   73  ls
+   74  sudo apt install ./nomachine_8.11.3_4_amd64.deb 
+   75  rsync
+   76  clear
+   77  rsync -anv ziggy@192.168.10.16:/home/ziggy/.local/share/DBeaverData/workspace6/General/.dbeaver ./dbeaver/ 
+   78  cd
+   79  cd ./.local/share/DBeaverData/workspace6/General/
+   80  ls -la
+   81  mkdir ./dbeaver
+   82  aws s3 sync s3://asavage-east/backup-asavage-west/tmp-home/dbeaver ./
+   83  ls
+   84  cd ..
+   85  ls
+   86  cd General/
+   87  ls
+   88  mkdir Scripts
+   89  cd /home/ziggy/.local/share/DBeaverData/workspace6/General/Scripts/
+   90  ls
+   91  aws s3 sync s3://asavage-east/backup-asavage-west/tmp-home/Scripts/ ./
+   92  ls
+   93  aws s3 sync s3://asavage-east/backup-asavage-west/tmp-home/Scripts ./
+   94  ls
+   95  aws s3 sync s3://asavage-east/backup-asavage-west/tmp-home/scripts ./
+   96  ls
+   97  cd
+   98  history > ./install-raw.txt
